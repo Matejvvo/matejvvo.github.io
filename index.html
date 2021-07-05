@@ -6,36 +6,194 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>The Rosa | Home</title>
+        <title>Nature Tours | Home</title>
 
         <!-- Ion icons -->
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
         <!-- My own stylesheet -->
         <link rel="stylesheet" href="styles.css">
-        <!--Awesome CDN fonts-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <!--Scroll reveal CDN script-->
-        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
 
     <body>
         <!-- Header -->
         <header>
-            <h1>The Rosa</h1>
+            <div class="container">
+                <!-- Nav bar -->
+                <nav>
+                    <!-- Logo -->
+                    <div class="nav-brand">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Hiker logo">
+                        </a>
+                    </div>
+
+                    <!-- Burger menu icon -->
+                    <div class="menu-icons open">
+                        <i class="icon ion-md-menu"></i>
+                    </div>
+
+                    <!-- Menu list -->
+                    <ul class="nav-list">
+                        <!-- Burger menu icon -->
+                        <div class="menu-icons close">
+                            <i class="icon ion-md-close"></i>
+                        </div>
+
+                        <!-- Menu items -->
+                        <li class="nav-items">
+                            <a href="#" class="nav-link current">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#" class="nav-link">Destination</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#" class="nav-link">Booking</a>
+                        </li>
+                            <li class="nav-items">
+                                <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <!-- Main -->
         <main>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <!-- Main article -->
+            <section class="hero">
+                <div class="container">
+                    <div class="main-message">
+                        <h3>The great outdoors</h3>
+                        <h1>Adventure</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="cta">
+                            <a href="#" class="btn">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  Experience offer section grid -->
+            <section class="experience-outdoors">
+                <div class="content">
+                    <!-- Title -->
+                    <div class="title-heading">
+                        <h3>Experience</h3>
+                        <h1>The thrilling outdoors</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <div class="activities-grid">
+                        <!-- Grid item #1 -->
+                        <div class="activities-grid-item star-gazing">
+                            <i class="icon ion-md-star"></i>
+                            <h1>Star Gazing</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+
+                        <!-- Grid item #2-->
+                        <div class="activities-grid-item hiking">
+                            <i class="icon ion-md-compass"></i>
+                            <h1>Hiking</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+
+                        <!-- Grid item #3 -->
+                        <div class="activities-grid-item camping">
+                            <i class="icon ion-md-bonfire"></i>
+                            <h1>Camping</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+
+                        <!-- Grid item #4 -->
+                        <div class="activities-grid-item travel">
+                            <i class="icon ion-md-car"></i>
+                            <h1>Travelling</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="container">
+                    <div class="testimonial">
+                        <!-- Quote -->
+                        <div class="testimonial-text-box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <i class="icon ion-md-quote"></i>
+                        </div>
+
+                        <!-- Picture -->
+                        <div class="testimonial-customer">
+                            <img src="images/profile-pic.jpg" alt="Customers profile picture">
+                            <h1>Martin G.</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Adventures offer section grid -->
+            <section class="begin-adventure">
+                <div class="container">
+                    <!-- Title -->
+                    <div class="title-heading">
+                        <h3>Let the</h3>
+                        <h1>Adventure begin</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <!-- Adventures offer -->
+                    <div class="adventure-grid">
+                        <!-- Grid item #1 -->
+                        <div class="adventure-grid-item">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+
+                        <!-- Grid item #2 -->
+                        <div class="adventure-grid-item">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <a class="btn" href="#">Book your adventure</a>
+                </div>
+            </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <p>&copy; 2020 The Rosa. All rights reserved.</p>
+            <p>&copy; 2020 Outdoors Adventures. All rights reserved. </p>
+            <a id="top-btn" class="btn-top" href="#">Top</a>
         </footer>
 
         <!-- Scripts -->
