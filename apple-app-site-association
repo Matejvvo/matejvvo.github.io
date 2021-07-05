@@ -5,5 +5,20 @@
             "matejvvo.BakalariFY.QA",
             "matejvvo.BakalariFY.Dev"
         ]
+    },
+    "applinks": {
+        "apps": [
+            "matejvvo.BakalariFY",
+            "matejvvo.BakalariFY.QA",
+            "matejvvo.BakalariFY.Dev"
+        ],
+        "details": [
+            {
+                "appID": "matejvvo.BakalariFY.Dev",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
     }
 }
