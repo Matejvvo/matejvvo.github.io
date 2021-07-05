@@ -1,0 +1,9 @@
+{
+    "webcredentials": {
+        "apps": [
+            "matejvvo.BakalariFY",
+            "matejvvo.BakalariFY.QA",
+            "matejvvo.BakalariFY.Dev"
+        ]
+    }
+}
