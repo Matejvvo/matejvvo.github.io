@@ -1,0 +1,24 @@
+{
+    "webcredentials": {
+        "apps": [
+            "2R3J6F6G28.matejvvo.BakalariFY",
+            "2R3J6F6G28.matejvvo.BakalariFY.QA",
+            "2R3J6F6G28.matejvvo.BakalariFY.Dev"
+        ]
+    },
+    "applinks": {
+        "apps": [
+            "2R3J6F6G28.matejvvo.BakalariFY",
+            "2R3J6F6G28.matejvvo.BakalariFY.QA",
+            "2R3J6F6G28.matejvvo.BakalariFY.Dev"
+        ],
+        "details": [
+            {
+                "appID": "2R3J6F6G28.matejvvo.BakalariFY",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}

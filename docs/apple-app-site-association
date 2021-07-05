@@ -1,20 +1,20 @@
 {
     "webcredentials": {
         "apps": [
-            "2R3J6F6G28.matejvvo.BakalariFY",
-            "2R3J6F6G28.matejvvo.BakalariFY.QA",
-            "2R3J6F6G28.matejvvo.BakalariFY.Dev"
+            "matejvvo.BakalariFY",
+            "matejvvo.BakalariFY.QA",
+            "matejvvo.BakalariFY.Dev"
         ]
     },
     "applinks": {
         "apps": [
-            "2R3J6F6G28.matejvvo.BakalariFY",
-            "2R3J6F6G28.matejvvo.BakalariFY.QA",
-            "2R3J6F6G28.matejvvo.BakalariFY.Dev"
+            "matejvvo.BakalariFY",
+            "matejvvo.BakalariFY.QA",
+            "matejvvo.BakalariFY.Dev"
         ],
         "details": [
             {
-                "appID": "2R3J6F6G28.matejvvo.BakalariFY",
+                "appID": "matejvvo.BakalariFY",
                 "paths": [
                     "*"
                 ]
